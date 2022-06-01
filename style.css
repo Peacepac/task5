@@ -1,0 +1,72 @@
+#intro-example { 
+  height: 400px; 
+} 
+.text-white{ 
+  padding: 170px; 
+} 
+@media (min-width: 992px) { 
+  #intro-example { 
+    height: 600px; 
+  } 
+
+   
+} 
+
+head, body{background-color: #fff}.card{cursor: pointer}.hd{font-size: 25px;font-weight: 550}.card.hover, .card:hover{box-shadow: 0 20px 40px rgba(0, 0, 0, .2)}.img{margin-bottom: 35px;-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222)}.card-title{font-weight: 600}button.focus, button:focus{outline: 0;box-shadow: none !important}.ft{margin-top: 25px}.chk{margin-bottom: 5px}.rck{margin-top: 20px;padding-bottom: 15px}
+
+#aboutus{ 
+  background-image: url(https://images.unsplash.com/photo-1503423571797-2d2bb372094a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80); 
+  background-size: cover; 
+  height: 100vh;
+} 
+.about { 
+  text-align: center; 
+  /* color: #fff; */ 
+  padding: 40px; 
+} 
+
+.title { 
+  font-size: 22px; 
+  color: #fff; 
+} 
+ 
+.desc { 
+  color: #fff; 
+  font-weight: 500; 
+  font-size: 1.1em; 
+  line-height: 1.45em; 
+  margin-bottom: 15px; 
+  margin-top: 30px; 
+  width: 70%; 
+  margin: 0 auto; 
+} 
+
+@media (max-width: 630px) { 
+  .title { 
+    font-size: 18px; 
+  } 
+
+  #aboutus { 
+    background-image: url(https://images.unsplash.com/photo-1503423571797-2d2bb372094a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80); 
+    background-size: contain; 
+    height: 50vh;
+  } 
+} 
+
+head, body{background-color: #fff}.card{cursor: pointer}.hd{font-size: 25px;font-weight: 550}.card.hover, .card:hover{box-shadow: 0 20px 40px rgba(0, 0, 0, .2)}.img{margin-bottom: 35px;-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222)}.card-title{font-weight: 600}button.focus, button:focus{outline: 0;box-shadow: none !important}.ft{margin-top: 25px}.chk{margin-bottom: 5px}.rck{margin-top: 20px;padding-bottom: 15px}
+
+.contact-image {
+  height:170px;
+  width:100%;
+  background-size:cover;
+}
+.container{
+  padding: 50px;
+}
+.container p{
+  width:60vw;
+}
+
+footer{
+  background-color:#85A0BE;
+}
