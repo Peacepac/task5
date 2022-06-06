@@ -26,12 +26,13 @@ head, body{background-color: #fff}.card{cursor: pointer}.hd{font-size: 25px;font
 } 
 
 .title { 
+  margin-top:50px;
   font-size: 22px; 
-  color: #fff; 
+  /* color: #fff;  */
 } 
  
 .desc { 
-  color: #fff; 
+  /* color: #fff;  */
   font-weight: 500; 
   font-size: 1.1em; 
   line-height: 1.45em; 
@@ -52,6 +53,9 @@ head, body{background-color: #fff}.card{cursor: pointer}.hd{font-size: 25px;font
     height: 50vh;
   } 
 } 
+/* .container p{
+  width:60vw;
+} */
 
 head, body{background-color: #fff}.card{cursor: pointer}.hd{font-size: 25px;font-weight: 550}.card.hover, .card:hover{box-shadow: 0 20px 40px rgba(0, 0, 0, .2)}.img{margin-bottom: 35px;-webkit-filter: drop-shadow(5px 5px 5px #222);filter: drop-shadow(5px 5px 5px #222)}.card-title{font-weight: 600}button.focus, button:focus{outline: 0;box-shadow: none !important}.ft{margin-top: 25px}.chk{margin-bottom: 5px}.rck{margin-top: 20px;padding-bottom: 15px}
 
@@ -63,10 +67,7 @@ head, body{background-color: #fff}.card{cursor: pointer}.hd{font-size: 25px;font
 .container{
   padding: 50px;
 }
-.container p{
-  width:60vw;
-}
 
-footer{
+/* footer{
   background-color:#85A0BE;
-}
+} */
